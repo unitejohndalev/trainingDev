@@ -1,14 +1,13 @@
-import CountNumber from "./components/CountNumber"
-
+import CountNumber from "./components/CountNumber";
+import FakeStore from "./components/FakeStore";
 
 function App() {
-
-
   return (
     <>
-    <CountNumber/>
+      <CountNumber />
+      <FakeStore />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
